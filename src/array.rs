@@ -1,5 +1,6 @@
 use crate::item::Item;
 use crate::triple_work::TripleWorks;
+#[derive(Debug)]
 pub struct Array([f64; 3]);
 
 impl TripleWorks for Array {

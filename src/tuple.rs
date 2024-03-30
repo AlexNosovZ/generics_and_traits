@@ -1,5 +1,6 @@
 use crate::item::Item;
 use crate::triple_work::TripleWorks;
+#[derive(Debug)]
 pub struct Tuple(u32, f32, f64);
 
 impl TripleWorks for Tuple {
